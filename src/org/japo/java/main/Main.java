@@ -17,7 +17,6 @@ package org.japo.java.main;
 
 import java.util.Calendar;
 
-
 /**
  *
  * @author Josefina Pugliese Vazquez
@@ -28,14 +27,13 @@ public class Main {
         int d;
         int m;
         int a;
-        
-        
+
         Calendar cal = Calendar.getInstance();
-        
+
         d = cal.get(Calendar.DAY_OF_MONTH);
         m = cal.get(Calendar.MONTH) + 1;
         a = cal.get(Calendar.YEAR);
-        
+
         System.out.printf("%s%02d/%02d/%02d%n", "Fecha del sistema ...: ", d, m, a);
     }
 }
